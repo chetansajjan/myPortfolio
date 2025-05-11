@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chetan Sajjan | Full Stack Developer</title>
+  <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+  }
+  
+  header {
+    background: #1e1e2f;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #00f2fe;
+  }
+  
+  #hero {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+  
+  #hero img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn {
+    display: inline-block;
+    background: white;
+    color: #007BFF;
+    padding: 0.6rem 1.2rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .btn:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #007BFF;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .project,
+  .certificate {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    border-left: 5px solid #007BFF;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .project:hover,
+  .certificate:hover {
+    transform: translateY(-3px);
+  }
+  
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skills li {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.7rem;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  ul li a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1e1e2f;
+    color: white;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+  }
+  
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Chetan Sajjan</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <img src="https://i.postimg.cc/XJvbfWHT/Picsart-25-05-07-12-13-14-067.jpg" alt="Chetan Sajjan Photo" />
+    <h2>Hi, I'm a Full Stack Developer</h2>
+    <p>Passionate about building scalable and user-friendly web applications.</p>
+    <a href="Chetan_Sajjan_Fullstack_Resume.docx" download class="btn">Download Resume</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate and dedicated MERN Stack Developer with a solid foundation in building modern web applications using MongoDB, Express.js, React, and Node.js. As a final year Computer Science Engineering student at SKSVMACET (VTU), I have consistently strived to apply my academic knowledge in real-world scenarios through internships, personal projects, and hackathons.
+    </p>
+    <p>
+      I specialize in designing full-stack applications with responsive UIs and scalable backend architectures. My experience also includes working with RESTful APIs, integrating third-party services, managing databases, and deploying applications to cloud platforms.
+    </p>
+    <p>
+      With a strong problem-solving mindset and a keen eye for detail, I continuously seek to improve my skills and keep up with the latest trends in web development. I’m highly motivated to contribute to innovative teams where I can continue learning and make a meaningful impact.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Future Crop - AI Price Prediction</h3>
+      <p>Python, TensorFlow, LSTM, CNN - Predicts crop prices using weather and market data.</p>
+      <a href="https://github.com/chetansajjan">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>E-commerce Website</h3>
+      <p>Django, HTML, CSS, JavaScript - Full-featured online shopping site.</p>
+      <a href="https://github.com/chetansajjan">View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="skills">
+  <h2>Skills</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
+    <div style="background: #e0f7fa; border: 2px solid #00bcd4; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>HTML5</strong>
+    </div>
+    <div style="background: #e0f7fa; border: 2px solid #00bcd4; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>CSS3</strong>
+    </div>
+    <div style="background: #e8f5e9; border: 2px solid #4caf50; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>JavaScript</strong>
+    </div>
+    <div style="background: #f3e5f5; border: 2px solid #9c27b0; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>React</strong>
+    </div>
+    <div style="background: #fff3e0; border: 2px solid #ff9800; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>Node.js</strong>
+    </div>
+    <div style="background: #fce4ec; border: 2px solid #e91e63; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>Express.js</strong>
+    </div>
+    <div style="background: #e3f2fd; border: 2px solid #2196f3; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>MongoDB</strong>
+    </div>
+    <div style="background: #f9fbe7; border: 2px solid #cddc39; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>Python</strong>
+    </div>
+    <div style="background: #fbe9e7; border: 2px solid #ff5722; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>Django</strong>
+    </div>
+    <div style="background: #ede7f6; border: 2px solid #673ab7; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>MySQL</strong>
+    </div>
+    <div style="background: #f1f8e9; border: 2px solid #8bc34a; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>Git</strong>
+    </div>
+    <div style="background: #eceff1; border: 2px solid #607d8b; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>GitHub</strong>
+    </div>
+    <div style="background: #fffde7; border: 2px solid #ffeb3b; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>PostgreSQL</strong>
+    </div>
+    <div style="background: #e8eaf6; border: 2px solid #3f51b5; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>Docker</strong>
+    </div>
+    <div style="background: #edeef0; border: 2px solid #546e7a; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>Linux</strong>
+    </div>
+    <div style="background: #fce4ec; border: 2px solid #ec407a; padding: 1rem; border-radius: 8px; min-width: 120px; text-align: center;">
+      <strong>REST APIs</strong>
+    </div>
+  </div>
+</section>
+
+
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <ul>
+      <li><a href="https://example.com/python-nxtwave" target="_blank">Python, HTML, CSS – Nxtwave</a></li>
+      <li><a href="https://example.com/data-science-ibm" target="_blank">Data Science – IBM</a></li>
+      <li><a href="https://example.com/cybersecurity-google" target="_blank">Cybersecurity – Google (Coursera)</a></li>
+      <li><a href="https://example.com/python-givi" target="_blank">Python – Google for Education + GIVI</a></li>
+      <li><a href="https://example.com/java-iitbombay" target="_blank">Java – IIT Bombay</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:chetansajjan95@gmail.com">chetansajjan95@gmail.com</a></p>
+    <p>Phone: (+91) 8123772445</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/chetan-sajjan" target="_blank">linkedin.com/in/chetan-sajjan</a></p>
+    <p>GitHub: <a href="https://github.com/chetansajjan" target="_blank">github.com/chetansajjan</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chetan Sajjan. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Simple smooth scroll effect
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
