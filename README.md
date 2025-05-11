@@ -5,7 +5,7 @@ This is the personal portfolio website of **Chetan Sajjan**, a Full Stack Develo
 ## 🌐 Live Preview
 
 You can view the portfolio at:  
-[https://chetansajjan.github.io](https://chetansajjan.github.io) *(replace with actual URL if hosted)*
+https://chetansajjan.github.io/myPortfolio/
 
 ## 📁 Project Structure
 portfolio/
